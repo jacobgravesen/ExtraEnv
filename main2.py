@@ -11,7 +11,7 @@ cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
 
-while True:
+while True: # in
     _, frame = cap.read()
     
     img = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
